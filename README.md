@@ -34,7 +34,7 @@ This tutorial outlines the implementation of a VPN in remote desktop, and the va
 <img src="https://i.imgur.com/1BrdE7b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Browse to whatismyipaddress.com to see IP address of home PC with no modifications.
+Browse to whatismyipaddress.com to see the IP address of home PC with no modifications.
 </p>
 <br />
 
