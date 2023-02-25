@@ -3,11 +3,12 @@
 </p>
 
 <h1>VPN Setup and Usage</h1>
-This tutorial outlines the implementation of a VPN in remote desktop.<br />
+<br />
 
 
 
-
+<h2>Description</h2>
+This tutorial outlines the implementation of a VPN in remote desktop, and the varying effects on the IP address under different circumstances.
 <h2>Environments and Technologies Used</h2>
 
 - Proton VPN
@@ -19,9 +20,9 @@ This tutorial outlines the implementation of a VPN in remote desktop.<br />
 
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>Configuration Steps</h2>
 
-- Browse to "whatismyipaddress.com" on home network
+- Browse to "whatismyipaddress.com" on home PC
 - Connect to a virtual machine via remote desktop
 - Browse to "whatismyipaddress.com" through the remote desktop
 - Download Proton VPN and connect to a server
@@ -33,7 +34,7 @@ This tutorial outlines the implementation of a VPN in remote desktop.<br />
 <img src="https://i.imgur.com/1BrdE7b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Browse to whatismyipaddress.com to see IP address of home PC.
+Browse to whatismyipaddress.com to see IP address of home PC with no modifications.
 </p>
 <br />
 
@@ -63,7 +64,7 @@ From the Virtual Machine browse to whatismyipaddress.com, notice the change in I
 <img src="https://i.imgur.com/w9r5YYC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the home PC Create a Proton VPN account, this will allow the usage of Proton VPN.
+From the home PC Create a Proton VPN account, this will allow the usage of Proton VPN on the Virtual Machine.
 </p>
 <br />
 <p>
@@ -98,6 +99,6 @@ The VPN has been created.
 <img src="https://i.imgur.com/rsxIHVL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-From the VPN browse to whatismyipaddress.com, notice the change in IP address.
+While connected to the VPN browse to whatismyipaddress.com, notice the change in IP address.
 </p>
 <br />
